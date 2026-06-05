@@ -50,4 +50,4 @@ Welcome to my data portfolio! I specialize in turning raw data into actionable i
 * **Domain:** Sales Analytics
 * **Tools:** Excel (`Sales dataset.xlsx`), Python (`sales_analysis.ipynb`)
 * **Description:** An end-to-end sales analysis combining Excel data management with Jupyter Notebooks for deeper programming insights.
-* 🔗 **[View Project Repository](https://github.com/mefaj/Sales_data_analysis_project)**
+* 🔗 **[View Project Repository](https://github.com/mefaj/Sales-data-analysis-project)**
