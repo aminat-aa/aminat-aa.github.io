@@ -44,3 +44,10 @@ Welcome to my data portfolio! I specialize in turning raw data into actionable i
 *   **Key Features:** Regional supplier mapping across major hubs (Bangalore, Chennai, Delhi, Kolkata, Mumbai) split by transit channels (Air, Rail, Road) to isolate supply chain bottlenecks.
 *   *Preview:*
     ![Suppliers Dashboard](suppliers_performance.PNG)
+---
+
+### 📈 5. Sales Data Analysis Project
+* **Domain:** Sales Analytics
+* **Tools:** Excel (`Sales dataset.xlsx`), Python (`sales_analysis.ipynb`)
+* **Description:** An end-to-end sales analysis combining Excel data management with Jupyter Notebooks for deeper programming insights.
+* 🔗 **[View Project Repository](https://github.com/mefaj/Sales_data_analysis_project)**
