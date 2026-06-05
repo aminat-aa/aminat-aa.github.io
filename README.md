@@ -3,7 +3,7 @@
 
 Welcome to my data portfolio! I specialize in turning raw data into actionable insights using advanced Excel modeling, data transformation, and dynamic dashboard design.
 
-📬 **Connect with me:** [LinkedIn](https://www.LinkedIn.com/in/aminatadewuyi) | [Email](aminatabdulwasiu88@gmailcom)
+📬 **Connect with me:** (https://www.LinkedIn.com/in/aminatadewuyi) | (aminatabdulwasiu88@gmailcom)
 
 ---
 
