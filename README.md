@@ -13,7 +13,7 @@ Welcome to my data portfolio! I specialize in turning raw data into actionable i
 
 ## 📈 Case Study 1: Sales & Revenue Performance Intelligence Engine
 **Domain:** Commercial Retail Analytics & Business Intelligence  
-**Core Technologies:** Advanced Excel | Pivot Tables & Charts | Data Cleaning | Trend Forecasting  
+**Core Technologies:** Advanced Excel | Dynamic Slicers | Pivot Tables & Charts | Data Cleaning  
 
 ### 🖥️ Dashboard Visualization
 ![Sales Performance Dashboard](sales_dashboard_v1.JPG)
