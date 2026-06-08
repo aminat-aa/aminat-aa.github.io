@@ -13,7 +13,7 @@ Welcome to my data portfolio! I specialize in turning raw data into actionable i
 
 ## 📈 Case Study 1: Sales & Revenue Performance Intelligence Engine
 **Domain:** Commercial Retail Analytics & Business Intelligence  
-**Core Technologies:** Power BI | DAX | Power Query | Data Modeling | Trend Forecasting  
+**Core Technologies:** Advanced Excel | Pivot Tables & Charts | Data Cleaning | Trend Forecasting  
 
 ### 🖥️ Dashboard Visualization
 ![Sales Performance Dashboard](sales_dashboard_v1.JPG)
@@ -42,7 +42,7 @@ Engineered an enterprise Fintech Customer Experience & Fraud Risk Analytics engi
 
 ### 🔍 Deep-Dive Analytical Insights & Business Impact
 * **Channel Utilization & Infrastructure Costs:** Quantitative evaluation reveals that **physical ATMs remain the primary transactional touchpoint** over Online and POS frameworks. This deep reliance on cash transactions indicates an opportunity to migrate users toward low-cost digital channels to save on branch operation and cash-transit logistics.
-* **Lifecycle Financial Stratification (Age Cohorts):** * **The 18–30 Cohort (Young Adults):** Exhibit high-velocity, low-ticket-size lifestyle spend patterns. Crucially, this group also contains **high-value outlier spikes**, making them highly susceptible vectors for credential theft or sudden high-risk credit exposure.
+* **Lifecycle Financial Stratification (Age Cohorts):**  **The 18–30 Cohort (Young Adults):** Exhibit high-velocity, low-ticket-size lifestyle spend patterns. Crucially, this group also contains **high-value outlier spikes**, making them highly susceptible vectors for credential theft or sudden high-risk credit exposure.
   * **The 30–50 Cohort (Mid-Career Professionals):** Form the bank’s core profitability engine, maintaining the highest average account balances and steady volume metrics.
 * **Securing the Transactional Ecosystem:** Built an active anomaly detection logic. **Accounts experiencing more than 3 failed login attempts are instantly isolated** as active security vulnerabilities (brute-force hacking vectors vs. user error). By combining this threshold with geographic logging (which identified **Colorado Springs** as the densest transaction node), the system flags out-of-pattern IP logins to prevent account takeovers.
 
@@ -50,7 +50,7 @@ Engineered an enterprise Fintech Customer Experience & Fraud Risk Analytics engi
 
 ## 📦 Case Study 3: Supply Chain & Supplier Performance Optimization
 **Domain:** Logistics, Quality Assurance, & Procurement Management  
-**Core Technologies:** Power BI | DAX | Operations Analytics | Risk Mitigation  
+**Core Technologies:** Excel | Procurement Performance Audit | Operational Reporting 
 
 ### 🖥️ Dashboard Visualization
 ![Suppliers Performance Dashboard](suppliers_performnace.PNG)
