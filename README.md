@@ -11,7 +11,7 @@ Welcome to my data portfolio! I specialize in turning raw data into actionable i
 
 ---
 
-## 📈 Case Study 1: Sales & Revenue Performance Intelligence Engine
+## 📈 Case Study 1: Sales & Revenue Performance
 **Domain:** Commercial Retail Analytics & Business Intelligence  
 **Core Technologies:** Advanced Excel | Dynamic Slicers | Pivot Tables & Charts | Data Cleaning  
 
@@ -53,7 +53,7 @@ Engineered an enterprise Fintech Customer Experience & Fraud Risk Analytics engi
 **Core Technologies:** Excel | Procurement Performance Audit | Operational Reporting 
 
 ### 🖥️ Dashboard Visualization
-![Suppliers Performance Dashboard](suppliers_performnace.PNG)
+![Suppliers Performance Dashboard](suppliers_performance.PNG)
 
 ### 📝 Project Overview
 Designed a comprehensive Supply Chain Performance Optimization model to audit vendor reliability, supply network volatility, and manufacturing quality metrics. This data architecture empowers operational stakeholders to mitigate production downtime, evaluate geographical supplier risks, and tighten Procurement SLAs (Service Level Agreements).
