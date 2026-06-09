@@ -15,8 +15,8 @@ Welcome to my data portfolio! I specialize in turning raw data into actionable i
 **Core Technologies:** Python (Pandas) | Jupyter Notebook | Advanced Excel | Dynamic Slicers | Pivot Tables  
 
 ### 🖥️ Dashboard Visualization
-![Sales Performance Dashboard](sales_dashboard_v1.jpg)
-![Sales Performance Dashboard](sales_dashboard_v2.jpg)
+![Sales Performance Dashboard](sales_dashboard_v1.JPG)
+![Sales Performance Dashboard](sales_dashboard_v2.JPG)
 
 ### 📝 Project Overview
 I built this comprehensive project during my training with Cyperdevs Technologies, the World Bank Group, and the Federal Ministry of Nigeria. To showcase my full analytical versatility, I approached this raw retail transaction dataset from two angles: I used **Python (Pandas)** in a Jupyter Notebook to programmatically ingest, clean, and run mathematical data transformations, and then I built an interactive **Excel Dashboard** with dynamic slicers for high-level stakeholder reporting.
@@ -24,17 +24,14 @@ I built this comprehensive project during my training with Cyperdevs Technologie
 🔗 **[View My Live Python Code & Jupyter Notebook on GitHub](https://github.com/aminat-aa/Sales-data-analysis-project/blob/main/sales_analysis.ipynb)**
 
 ### 🔍 My Analytical Insights & Project Breakdown
-* **Data Transformation & Feature Engineering:** Using Python, I loaded the raw Excel files and engineered new calculated features. For instance, I wrote logic to dynamically compute `Total_Cost` across rows by multiplying the transactional volume against unit price variations (`df['Quantity'] * df['Unit_Cost']`) to build out the underlying data layer.
+* **Programmatic Feature Engineering:** Using Python, I loaded the raw Excel files and engineered new calculated columns to establish financial metrics. I wrote logic to dynamically compute row-level costs and ultimate profitability by subtracting total expenses from revenue streams:
+  `df['profit'] = df['Total_Revenue'] - df['Total_Cost']`
 * **Product Revenue vs. Volume:** When I analyzed the product categories, I found that **Phones generate 55% of my total revenue**. Looking closer at consumer behavior, this makes sense because customers tend to upgrade their devices every 2 to 3 years. However, when looking at unit volume, **Accessories sold the most items overall**. This showed me that while phones bring in the large cash amounts, accessories act as a high-volume checkout attachment.
 * **Quarterly Sales Trends:** I mapped out the profit and loss by quarter and noticed a major trend: **sales peaked sharply in Q2 but dropped significantly by Q4**. My revenue chart confirmed this, showing an increase in Q2 followed by a steady decrease starting in Q3. This taught me that the business is highly seasonal, meaning inventory needs to be managed carefully ahead of the Q4 dip.
-* **Regional & Staff Performance:** By tracking sales by location, I discovered that **Lagos State saw the highest sales increase**. Because of the massive population density in Lagos, there was a constant, heavy demand for phone accessories like chargers and screen protectors. On the staff side, I isolated **Verstappen and Hamilton as core sales drivers** within the transactional records.
-* **How I Made It Interactive:** I integrated **Dynamic Slicers** into the Excel side of this dashboard so that anyone viewing it can click through different regions, quarters, or salespeople to see the charts update instantly.
-
-### 🔍 My Analytical Insights & Project Breakdown
-* **Product Revenue vs. Volume:** When I analyzed the product categories, I found that **Phones generate 55% of my total revenue**. Looking closer at consumer behavior, this makes sense because customers tend to upgrade their devices every 2 to 3 years. However, when looking at unit volume, **Accessories sold the most items overall**. This showed me that while phones bring in the large cash amounts, accessories act as a high-volume checkout attachment.
-* **Quarterly Sales Trends:** I mapped out the profit and loss by quarter and noticed a major trend: **sales peaked sharply in Q2 but dropped significantly by Q4**. My revenue chart confirmed this, showing an increase in Q2 followed by a steady decrease starting in Q3. This taught me that the business is highly seasonal, meaning inventory needs to be managed carefully ahead of the Q4 dip.
-* **Regional & Staff Performance:** By tracking sales by location, I discovered that **Lagos State saw the highest sales increase**. Because of the massive population density in Lagos, there was a constant, heavy demand for phone accessories like chargers and screen protectors. On the staff side, I isolated **Hamilton as my top-performing salesperson**, which tells me their customer service approach is a great benchmark for the rest of the team.
-* **How I Made It Interactive:** I integrated **Dynamic Slicers** into this Excel dashboard so that anyone viewing it can click through different regions, quarters, or salespeople to see the charts update instantly.
+* **Algorithmic Staff Performance Profiling:** Instead of just guessing who the top salesperson was, I used Python's aggregate grouping functions to sum up the net returns for every single staff member and isolate the absolute maximum earner:
+  `top_Sales_Person = df.groupby('Sales_Person')['profit'].sum().idxmax()`
+  The script successfully isolated **Hamilton** as the top-performing sales agent based on total profit, matching my visual Excel dashboard findings exactly.
+* **Regional Performance & Slicers:** By tracking sales by location, I discovered that **Lagos State saw the highest sales increase**. Because of the massive population density in Lagos, there was a constant, heavy demand for phone accessories like chargers and screen protectors. I integrated **Dynamic Slicers** into the Excel side of this dashboard so that anyone viewing it can click through different regions or quarters to see the charts update instantly.
 
 ---
 
