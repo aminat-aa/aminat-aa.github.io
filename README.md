@@ -11,72 +11,72 @@ Welcome to my data portfolio! I specialize in turning raw data into actionable i
 
 ---
 
-## 📈 Case Study 1: Sales & Revenue Performance
-**Domain:** Commercial Retail Analytics & Business Intelligence  
-**Core Technologies:** Advanced Excel | Dynamic Slicers | Pivot Tables & Charts | Data Cleaning  
+## 📈 Project 1: Sales & Revenue Performance Dashboard
+**Core Technologies Used:** Advanced Excel | Dynamic Slicers | Pivot Tables & Pivot Charts | Data Cleaning  
 
 ### 🖥️ Dashboard Visualization
 ![Sales Performance Dashboard](sales_dashboard_v1.JPG)
 ![Sales Performance Dashboard](sales_dashboard_v2.JPG)
 
 ### 📝 Project Overview
-This project involved developing a dynamic Sales Operations and Revenue Intelligence dashboard to analyze retail transaction flows, seasonal demand cycles, and regional sales performance. The project uncovers actionable insights into product purchasing behaviors, geographical market penetration, and talent productivity matrices to maximize retail profitability.
+I built this interactive Sales Performance Dashboard during my training with Cyperdevs Technologies, the World Bank Group, and the Federal Ministry of Nigeria. The goal of my project was to clean raw retail transaction records and design an interactive sheet that allows stakeholders to track sales trends, see where revenue is coming from geographically, and evaluate individual salesperson performance.
 
-### 🔍 Deep-Dive Analytical Insights & Business Impact
-* **Revenue Concentration Risk & Upgrade Cycles:** Product Category analysis shows that **Phones command the dominant revenue share (55%)**, driven by a predictable 2-to-3-year consumer hardware upgrade cycle. Conversely, **Accessories lead in total unit transaction volume (33% revenue share)**. Because accessories function as high-margin, impulse-buy items, overall retail profitability depends on cross-selling accessories alongside primary phone sales.
-* **Cyclical Performance & Q4 Revenue Compression:** A longitudinal trend analysis identifies a sharp **macro sales velocity peak in Q2, followed by a significant revenue compression by Q4**. This drop indicates strong seasonal cyclicality or inventory exhaustion. Businesses must deploy strategic Q3/Q4 promotional campaigns to smooth out this dip and protect cash flow.
-* **Demographic Density & Regional Market Dominance:** **Lagos State emerged as the hyper-dominant regional sales hub**. This performance is a direct result of urban density combined with an immediate consumer need for hardware protection accessories (e.g., screen guards, fast-charging units). 
-* **Salesperson Productivity Profiling:** **Hamilton was isolated as the top-performing sales agent**, serving as a benchmark for high-value client retention. Standardizing Hamilton's customer-centric sales methodologies can serve as an internal training template to optimize underperforming territories.
+### 🔍 My Analytical Insights & Project Breakdown
+* **Product Revenue vs. Volume:** When I analyzed the product categories, I found that **Phones generate 55% of my total revenue**. Looking closer at consumer behavior, this makes sense because customers tend to upgrade their devices every 2 to 3 years. However, when looking at unit volume, **Accessories sold the most items overall**. This showed me that while phones bring in the large cash amounts, accessories act as a high-volume checkout attachment.
+* **Quarterly Sales Trends:** I mapped out the profit and loss by quarter and noticed a major trend: **sales peaked sharply in Q2 but dropped significantly by Q4**. My revenue chart confirmed this, showing an increase in Q2 followed by a steady decrease starting in Q3. This taught me that the business is highly seasonal, meaning inventory needs to be managed carefully ahead of the Q4 dip.
+* **Regional & Staff Performance:** By tracking sales by location, I discovered that **Lagos State saw the highest sales increase**. Because of the massive population density in Lagos, there was a constant, heavy demand for phone accessories like chargers and screen protectors. On the staff side, I isolated **Hamilton as my top-performing salesperson**, which tells me their customer service approach is a great benchmark for the rest of the team.
+* **How I Made It Interactive:** I integrated **Dynamic Slicers** into this Excel dashboard so that anyone viewing it can click through different regions, quarters, or salespeople to see the charts update instantly.
 
 ---
 
-## 🛡️ Case Study 2: Fintech Customer Experience & Fraud Risk Analytics
-**Domain:** Fintech, Behavioral Segmentation, & Operational Risk Management  
-**Core Technologies:** Power BI | DAX | Advanced Cohort Analysis | Security Threat Modeling  
+## 🛡️ Project 2: Fintech Customer Experience & Fraud Risk Analytics (Capstone)
+**Core Technologies Used:** Power BI | DAX Formulas | Power Query | Customer Segmentation  
 
 ### 🖥️ Dashboard Visualization
 ![Fintech Capstone Dashboard](capstone.JPG)
 
 ### 📝 Project Overview
-Engineered an enterprise Fintech Customer Experience & Fraud Risk Analytics engine utilizing a complex transactional database of **2,512 unique financial records across 16 behavioral attributes**. This system maps demographic spending cohorts directly against platform operational health, user behavior, and security threat compliance.
+For my Capstone Project, I worked with a financial transactions dataset containing **2,512 entries and 16 different attributes**. I built this Power BI dashboard entirely from scratch to do two things: segment bank customers by their age and behaviors, and create an operational risk view to flag potential security threats and fraud indicators.
 
-### 🔍 Deep-Dive Analytical Insights & Business Impact
-* **Channel Utilization & Infrastructure Costs:** Quantitative evaluation reveals that **physical ATMs remain the primary transactional touchpoint** over Online and POS frameworks. This deep reliance on cash transactions indicates an opportunity to migrate users toward low-cost digital channels to save on branch operation and cash-transit logistics.
-* **Lifecycle Financial Stratification (Age Cohorts):**  **The 18–30 Cohort (Young Adults):** Exhibit high-velocity, low-ticket-size lifestyle spend patterns. Crucially, this group also contains **high-value outlier spikes**, making them highly susceptible vectors for credential theft or sudden high-risk credit exposure.
-  * **The 30–50 Cohort (Mid-Career Professionals):** Form the bank’s core profitability engine, maintaining the highest average account balances and steady volume metrics.
-* **Securing the Transactional Ecosystem:** Built an active anomaly detection logic. **Accounts experiencing more than 3 failed login attempts are instantly isolated** as active security vulnerabilities (brute-force hacking vectors vs. user error). By combining this threshold with geographic logging (which identified **Colorado Springs** as the densest transaction node), the system flags out-of-pattern IP logins to prevent account takeovers.
+### 🔍 My Analytical Insights & Project Breakdown
+* **ATM vs. Digital Usage:** I broke down transaction channel usage across ATM, Online, and POS options. My charts clearly revealed that **the physical ATM is the most popular transaction method** for this customer base. This insight is important because a heavy reliance on cash means higher physical infrastructure and card maintenance costs for the bank.
+* **Age Group Segmentation:** I divided the customers into specific age cohorts and noticed clear behavioral patterns:
+  * **Ages 18–30:** They make a high volume of frequent, lower-value transactions, mostly covering daily lifestyle expenses. However, I also spotted **unusually high-value transaction outliers** in this young adult group, which means their accounts need closer monitoring for sudden credit risks or fraud.
+  * **Ages 30–50:** This group exhibited much higher average transaction amounts, which I tie to career growth, family management, and major bill payments.
+* **Flagging Security Risks:** I wanted my dashboard to actively find security vulnerabilities, so I built logic to isolate **accounts with more than 3 failed login attempts**. This allows the security team to separate standard user forgetfulness from active brute-force hacking attempts. I also mapped out geographic data and found that **Colorado Springs was the most common transaction location** in the dataset.
+* **My Recommendations:** Based on my findings, I recommended implementing automated alerts for transactions exceeding 3 standard deviations from a user's normal baseline. I also recommended creating targeted online cashback promotions to gently nudge the younger 18-30 demographic away from physical ATMs and onto digital banking channels.
 
 ---
 
-## 📦 Case Study 3: Supply Chain & Supplier Performance Optimization
-**Domain:** Logistics, Quality Assurance, & Procurement Management  
-**Core Technologies:** Excel | Procurement Performance Audit | Operational Reporting 
+## 📦 Project 3: Supply Chain & Supplier Performance Optimization
+**Core Technologies Used:** Advanced Excel | Dynamic Slicers | Operational Quality Auditing  
 
 ### 🖥️ Dashboard Visualization
 ![Suppliers Performance Dashboard](suppliers_performance.PNG)
 
 ### 📝 Project Overview
-Designed a comprehensive Supply Chain Performance Optimization model to audit vendor reliability, supply network volatility, and manufacturing quality metrics. This data architecture empowers operational stakeholders to mitigate production downtime, evaluate geographical supplier risks, and tighten Procurement SLAs (Service Level Agreements).
+I designed this Supply Chain Performance dashboard to help procurement teams audit their vendor networks. When a company relies on outside vendors, delays and bad parts cost money. I built this tool to track exactly which suppliers are delivering on time, which ones are sending defective parts, and where our supply chain risks are located.
 
-### 🔍 Deep-Dive Analytical Insights & Business Impact
-* **Geographical Lead Time Variance:** Granular tracking of **Average Lead Time by Vendor** reveals critical delivery delays that are highly localized to specific manufacturing regions or complex cross-border shipping routes. These delivery variances create sudden factory stockout risks, requiring the establishment of safety stock margins for volatile vendors.
-* **Defect Rate Volatility & Waste Allocation:** Quality audits show a **highly erratic distribution of Defect Rates across the supplier network**. High defect percentages from particular regions drain operating margins via product scrap costs, return shipping fees, and factory rework loops. 
+### 🔍 My Analytical Insights & Project Breakdown
+* **Delivery & Lead Time Latency:** When I calculated the **Average Lead Time by Supplier**, the data showed a massive split. While some vendors consistently hit their deadlines, others had chronic, recurring delays. I traced these delays back and found they were heavily linked to specific geographical regions and complex material orders. 
+* **Manufacturing Quality Issues:** I looked at the **Average Defect Rate by Supplier** to see who was delivering clean work. The charts revealed that certain suppliers have unacceptably high defect rates, which are also concentrated in specific manufacturing regions. This drains company margins because of return shipping costs and production downtime.
+* **Interactive Design & Slicers:** Just like my sales project, I built this in Excel using **Dynamic Slicers** so that managers can instantly filter the supplier data by region, defect level, or lead time to see who our best and worst partners are.
+* **My Recommendations:** I recommended creating a supplier tiering matrix to route more orders to our reliable "Tier A" vendors. I also recommended adding strict delivery agreements into future vendor contracts and holding a "buffer stock" of critical raw materials so a supplier delay doesn't stop our entire operation.
 
 ---
 
-## 🎓 Case Study 4: Educational Policy & Socio-Economic Performance Dashboard
-**Domain:** Public Sector Analytics, Demographics, & Public Policy Evaluation  
-**Core Technologies:** Power BI | Educational Data Modeling | Statistical Disparity Analysis  
+## 🎓 Project 4: 2024 JAMB Performance Analysis Dashboard
+**Core Technologies Used:** Power BI | DAX Formulas | Public Sector Education Modeling  
 
 ### 🖥️ Dashboard Visualization
 ![JAMB Performance Dashboard](jamb_performance_2024_v1.jpg)
 ![JAMB Performance Dashboard](jamb_performance_2024_v2.jpg)
 
-
 ### 📝 Project Overview
-Developed a Public Policy and Educational Demographics dashboard analyzing a dataset of **5,000 national testing profiles**. This project builds statistical models to show how socio-economic standing, institutional funding, teacher quality, and student behavior directly influence high-stakes examination testing outcomes.
+In this public sector project, I analyzed a dataset containing **5,000 national student examination records for JAMB**. I wanted to move away from commercial business metrics and look at social data. I built this Power BI dashboard to find the exact socio-economic, school-level, and study habits that determine whether a student succeeds or struggles on high-stakes national exams.
 
-### 🔍 Deep-Dive Analytical Insights & Business Impact
-* **Socio-Economic Stratification & Rural Facility Voids:** The analysis exposes deep institutional inequities, with **maximum test score outcomes concentrated heavily in Urban centers** due to unequal funding and resource access. Furthermore, a **0.78% performance gap persists between High and Low Socio-Economic Status (SES) cohorts** (50.39% vs 49.61%), proving that household income structures long-term learning outcomes across macro-populations.
-* **Isolating Academic Success Catalysts:** Predictive data modeling isolated **weekly study hours and tutorial access** as the most powerful drivers of student success. Specifically, **50% of elite students scoring above 300 points utilized extra tutorial structures**, and a clear threshold of **26+ hours of independent weekly study** reliably predicted top-tier testing results.
-* **The Teacher Instructional Quality Matrix:** The dashboard maps a direct, linear drop in student scores as **Teacher Quality ratings decline from 5 down to 1**. Private institutions hold a structural monopoly on modern learning materials, highlighting the urgent need for targeted teacher upskilling programs in underfunded public sectors to stabilize national test outcomes.
+### 🔍 My Analytical Insights & Project Breakdown
+* **The Location and Income Gap:** When I looked at regional performance, the data showed that **students in urban areas achieved the highest maximum scores**. This clearly points to regional inequalities and a severe lack of resources or facilities in rural areas. Furthermore, when comparing family backgrounds, students from high socio-economic statuses had a **50.39% average score**, while low socio-economic students averaged **49.61%**. This 0.78% difference proves how heavily household income levels impact a student's preparation.
+* **Isolating What Actually Makes Students Succeed:** I wanted to see what drivers actually help students cross the elite 300-point mark. My analysis found that **50% of the students who scored above 300 points had direct access to extra tutorials**. Additionally, students who committed to **26 hours or more of independent study per week** routinely scored over 300. 
+* **School Type & Teacher Influence:** When I checked the types of schools, I found that private schools have drastically higher access to learning materials than public ones. More importantly, my charts showed a direct link between teacher ratings and student scores—low-quality teacher ratings severely dragged down student performance averages.
+* **My Recommendations:** I used these insights to write actionable recommendations for education policymakers. I proposed that the government subsidize modern learning materials for disadvantaged schools in rural areas, establish free remedial tutorial programs for lower-income students, and create mandatory training programs to upskill poorly-rated teachers.
