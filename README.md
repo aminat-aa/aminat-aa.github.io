@@ -10,7 +10,7 @@ Welcome to my data portfolio! I specialize in turning raw data into actionable i
 ## 🚀 Featured Data Projects
 
 ---
-## 📈 Case Study 1: Sales & Revenue Performance Intelligence Engine (Dual Excel & Python Project)
+## 📈 Case Study 1: Sales & Revenue Performance (Dual Excel & Python Project)
 **Domain:** Commercial Retail Analytics & Business Intelligence  
 **Core Technologies:** Python (Pandas) | Jupyter Notebook | Advanced Excel | Dynamic Slicers | Pivot Tables  
 
