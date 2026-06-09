@@ -10,16 +10,25 @@ Welcome to my data portfolio! I specialize in turning raw data into actionable i
 ## 🚀 Featured Data Projects
 
 ---
-
-## 📈 Project 1: Sales & Revenue Performance Dashboard
-**Core Technologies Used:** Advanced Excel | Dynamic Slicers | Pivot Tables & Pivot Charts | Data Cleaning  
+## 📈 Case Study 1: Sales & Revenue Performance Intelligence Engine (Dual Excel & Python Project)
+**Domain:** Commercial Retail Analytics & Business Intelligence  
+**Core Technologies:** Python (Pandas) | Jupyter Notebook | Advanced Excel | Dynamic Slicers | Pivot Tables  
 
 ### 🖥️ Dashboard Visualization
-![Sales Performance Dashboard](sales_dashboard_v1.JPG)
-![Sales Performance Dashboard](sales_dashboard_v2.JPG)
+![Sales Performance Dashboard](sales_dashboard_v1.jpg)
+![Sales Performance Dashboard](sales_dashboard_v2.jpg)
 
 ### 📝 Project Overview
-I built this interactive Sales Performance Dashboard during my training with Cyperdevs Technologies, the World Bank Group, and the Federal Ministry of Nigeria. The goal of my project was to clean raw retail transaction records and design an interactive sheet that allows stakeholders to track sales trends, see where revenue is coming from geographically, and evaluate individual salesperson performance.
+I built this comprehensive project during my training with Cyperdevs Technologies, the World Bank Group, and the Federal Ministry of Nigeria. To showcase my full analytical versatility, I approached this raw retail transaction dataset from two angles: I used **Python (Pandas)** in a Jupyter Notebook to programmatically ingest, clean, and run mathematical data transformations, and then I built an interactive **Excel Dashboard** with dynamic slicers for high-level stakeholder reporting.
+
+🔗 **[View My Live Python Code & Jupyter Notebook on GitHub](https://github.com/aminat-aa/Sales-data-analysis-project/blob/main/sales_analysis.ipynb)**
+
+### 🔍 My Analytical Insights & Project Breakdown
+* **Data Transformation & Feature Engineering:** Using Python, I loaded the raw Excel files and engineered new calculated features. For instance, I wrote logic to dynamically compute `Total_Cost` across rows by multiplying the transactional volume against unit price variations (`df['Quantity'] * df['Unit_Cost']`) to build out the underlying data layer.
+* **Product Revenue vs. Volume:** When I analyzed the product categories, I found that **Phones generate 55% of my total revenue**. Looking closer at consumer behavior, this makes sense because customers tend to upgrade their devices every 2 to 3 years. However, when looking at unit volume, **Accessories sold the most items overall**. This showed me that while phones bring in the large cash amounts, accessories act as a high-volume checkout attachment.
+* **Quarterly Sales Trends:** I mapped out the profit and loss by quarter and noticed a major trend: **sales peaked sharply in Q2 but dropped significantly by Q4**. My revenue chart confirmed this, showing an increase in Q2 followed by a steady decrease starting in Q3. This taught me that the business is highly seasonal, meaning inventory needs to be managed carefully ahead of the Q4 dip.
+* **Regional & Staff Performance:** By tracking sales by location, I discovered that **Lagos State saw the highest sales increase**. Because of the massive population density in Lagos, there was a constant, heavy demand for phone accessories like chargers and screen protectors. On the staff side, I isolated **Verstappen and Hamilton as core sales drivers** within the transactional records.
+* **How I Made It Interactive:** I integrated **Dynamic Slicers** into the Excel side of this dashboard so that anyone viewing it can click through different regions, quarters, or salespeople to see the charts update instantly.
 
 ### 🔍 My Analytical Insights & Project Breakdown
 * **Product Revenue vs. Volume:** When I analyzed the product categories, I found that **Phones generate 55% of my total revenue**. Looking closer at consumer behavior, this makes sense because customers tend to upgrade their devices every 2 to 3 years. However, when looking at unit volume, **Accessories sold the most items overall**. This showed me that while phones bring in the large cash amounts, accessories act as a high-volume checkout attachment.
