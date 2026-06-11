@@ -86,3 +86,14 @@ In this public sector project, I analyzed a dataset containing **5,000 national 
 * **Isolating What Actually Makes Students Succeed:** I wanted to see what drivers actually help students cross the elite 300-point mark. My analysis found that **50% of the students who scored above 300 points had direct access to extra tutorials**. Additionally, students who committed to **26 hours or more of independent study per week** routinely scored over 300. 
 * **School Type & Teacher Influence:** When I checked the types of schools, I found that private schools have drastically higher access to learning materials than public ones. More importantly, my charts showed a direct link between teacher ratings and student scores—low-quality teacher ratings severely dragged down student performance averages.
 * **My Recommendations:** I used these insights to write actionable recommendations for education policymakers. I proposed that the government subsidize modern learning materials for disadvantaged schools in rural areas, establish free remedial tutorial programs for lower-income students, and create mandatory training programs to upskill poorly-rated teachers.
+
+---
+
+### 📊 Retail Revenue Optimization Dashboard
+**Technologies Used:** Excel | Data Modeling | Interactive UI
+
+Designed and built an interactive business intelligence dashboard from a raw retail dataset. Engineered dynamic table calculations for net profit metrics and implemented cross-connected slicers to deliver seamless, interactive regional and product performance insights.
+
+![Retail Revenue Dashboard](https://raw.githubusercontent.com/aminat-aa/retail-revenue-optimization/main/dashboard_preview.png)
+
+👉 [View Full Project Repository](https://github.com/aminat-aa/retail-revenue-optimization)
