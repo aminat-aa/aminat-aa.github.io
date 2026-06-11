@@ -94,6 +94,6 @@ In this public sector project, I analyzed a dataset containing **5,000 national 
 
 Designed and built an interactive business intelligence dashboard from a raw retail dataset. Engineered dynamic table calculations for net profit metrics and implemented cross-connected slicers to deliver seamless, interactive regional and product performance insights.
 
-![Retail Revenue Dashboard](https://raw.githubusercontent.com/aminat-aa/retail-revenue-optimization/main/dashboard_preview.png)
+![Retail Revenue Dashboard](Revenue_Dashboard.PNG)
 
 👉 [View Full Project Repository](https://github.com/aminat-aa/retail-revenue-optimization)
